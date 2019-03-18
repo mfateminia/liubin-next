@@ -1,0 +1,210 @@
+[
+    {
+      "firstName": "Xueqi",
+      "lastName": "LI",
+      "rank": "PhD Student",
+      "email": "e0001901@u.nus.edu",
+      "imageName": "LI_Xueqi.jpg",
+      "googleScholar": ""
+    },
+    {
+      "firstName": "Yutong",
+      "lastName": "PAN",
+      "rank": "PhD Student",
+      "email": "yutongpan@u.nus.edu",
+      "imageName": "PAN_Yutong.jpg",
+      "googleScholar": "https://scholar.google.com.sg/citations?user=hejtGHQAAAAJ"
+    },
+    {
+      "firstName": "Mohammad",
+      "lastName": "TAVAKKOLI",
+      "rank": "PhD Student",
+      "email": "e0010805@u.nus.edu",
+      "imageName": "TAVAKKOLI_Mohammad.jpg",
+      "googleScholar": "https://scholar.google.com.sg/citations?user=9fzfhTEAAAAJ"
+    },
+    {
+      "firstName": "Eshu",
+      "lastName": "MIDDHA",
+      "rank": "PhD Student",
+      "email": "e0013584@u.nus.edu",
+      "imageName": "MIDHA_Eshu.jpg",
+      "googleScholar": ""
+    },
+    {
+      "firstName": "Shidang",
+      "lastName": "XU",
+      "rank": "PhD Student",
+      "email": "e0013603@u.nus.edu",
+      "imageName": "XU_Shidang.jpg",
+      "googleScholar": "https://scholar.google.com.sg/citations?user=HiGQESUAAAAJ"
+    },
+    {
+      "firstName": "Guobin",
+      "lastName": "QI",
+      "rank": "PhD Student",
+      "email": "e0154198@u.nus.edu",
+      "imageName": "QI_Guobin.jpg",
+      "googleScholar": "https://scholar.google.com.sg/citations?user=qD--BW4AAAAJ"
+    },
+    {
+      "firstName": "Yuanbo",
+      "lastName": "WANG",
+      "rank": "PhD Student",
+      "email": "e0146311@u.nus.edu",
+      "imageName": "WANG_Yuanbo.jpg",
+      "googleScholar": ""
+    },
+    {
+      "firstName": "Tianjiao",
+      "lastName": "DAI",
+      "rank": "PhD Student",
+      "email": "e0360523@u.nus.edu",
+      "imageName": "DAI_Tianjiao.jpg",
+      "googleScholar": ""
+    },
+    {
+      "firstName": "Xiaolei",
+      "lastName": "CAI",
+      "rank": "Research Fellow",
+      "email": "checaix@nus.edu.sg",
+      "imageName": "CAI_Xiaolei.jpg",
+      "googleScholar": "https://scholar.google.com.sg/citations?user=5Z82WR4AAAAJ"
+    },
+    {
+      "firstName": "Chengjian",
+      "lastName": "CHEN",
+      "rank": "Research Fellow",
+      "email": "chechcj@nus.edu.sg",
+      "imageName": "CHEN_Chengjian.jpg",
+      "googleScholar": ""
+    },
+    {
+      "firstName": "Huan",
+      "lastName": "CHEN",
+      "rank": "Research Assistant",
+      "email": "chechhu@nus.edu.sg",
+      "imageName": "CHEN_Huan.jpg",
+      "googleScholar": ""
+    },
+    {
+      "firstName": "Kok Chan",
+      "lastName": "CHONG",
+      "rank": "Research Assistant",
+      "email": "checkc@nus.edu.sg",
+      "imageName": "CHONG_KokChan.jpg",
+      "googleScholar": "https://scholar.google.com/citations?user=o4RfeM4AAAAJ"
+    },
+    {
+      "firstName": "Chunhui",
+      "lastName": "DAI",
+      "rank": "Research Fellow",
+      "email": "chedc@nus.edu.sg",
+      "imageName": "DAI_Chunhui.jpg",
+      "googleScholar": ""
+    },
+    {
+      "firstName": "Yukun",
+      "lastName": "DUAN",
+      "rank": "Research Assistant",
+      "email": "duanyukun@u.nus.edu",
+      "imageName": "DUAN_Yukun.jpg",
+      "googleScholar": "https://scholar.google.com.sg/citations?user=P41g9uAAAAAJ"
+    },
+    {
+      "firstName": "Bing",
+      "lastName": "GUO",
+      "rank": "Research Fellow",
+      "email": "cheg@nus.edu.sg",
+      "imageName": "GUO_Bing.jpg",
+      "googleScholar": "https://scholar.google.com.sg/citations?user=eSq6uS4AAAAJ"
+    },
+    {
+      "firstName": "Fang",
+      "lastName": "HU",
+      "rank": "Research Fellow",
+      "email": "chehf@nus.edu.sg",
+      "imageName": "HU_Fang.jpg",
+      "googleScholar": "https://scholar.google.com.sg/citations?user=fw2oL18AAAAJ"
+    },
+    {
+      "firstName": "Kenry",
+      "lastName": "",
+      "rank": "Research Fellow",
+      "email": "cheken@nus.edu.sg",
+      "imageName": "KENRY.jpg",
+      "googleScholar": ""
+    },
+    {
+      "firstName": "Jingjing",
+      "lastName": "LIU",
+      "rank": "Research Fellow",
+      "email": "cheljin@nus.edu.sg",
+      "imageName": "LIU_Jingjing.jpg",
+      "googleScholar": "https://scholar.google.com/citations?hl=en&user=sA6Vsd8AAAAJ&view_op=list_works&sortby=pubdate"
+    },
+    {
+      "firstName": "Xingang",
+      "lastName": "LIU",
+      "rank": "Research Fellow",
+      "email": "chelxin@nus.edu.sg",
+      "imageName": "LIU_Xingang.jpg",
+      "googleScholar": ""
+    },
+    {
+      "firstName": "Duo",
+      "lastName": "MAO",
+      "rank": "Research Fellow",
+      "email": "chemaod@nus.edu.sg",
+      "imageName": "MAO_Duo.jpg",
+      "googleScholar": "https://scholar.google.com.sg/citations?user=pAuofMEAAAAJ"
+    },
+    {
+      "firstName": "Can",
+      "lastName": "WANG",
+      "rank": "Research Fellow",
+      "email": "chewan@nus.edu.sg",
+      "imageName": "WANG_Can.jpg",
+      "googleScholar": ""
+    },
+    {
+      "firstName": "Shaowei",
+      "lastName": "WANG",
+      "rank": "Research Fellow",
+      "email": "chewsw@nus.edu.sg",
+      "imageName": "WANG_Shaowei.jpg",
+      "googleScholar": "https://scholar.google.com.sg/citations?user=Ylfd6eMAAAAJ"
+    },
+    {
+      "firstName": "Min",
+      "lastName": "WU",
+      "rank": "Research Fellow",
+      "email": "chewm@nus.edu.sg",
+      "imageName": "WU_Min.jpg",
+      "googleScholar": ""
+    },
+    {
+      "firstName": "Wenbo",
+      "lastName": "WU",
+      "rank": "Research Fellow",
+      "email": "msewuw@nus.edu.sg",
+      "imageName": "WU_Wenbo.jpg",
+      "googleScholar": "https://scholar.google.com.sg/citations?user=ky4bMuMAAAAJ"
+    },
+    {
+      "firstName": "Yaling",
+      "lastName": "ZHANG",
+      "rank": "Research Fellow",
+      "email": "chezyl@nus.edu.sg",
+      "imageName": "ZHANG_Yaling.jpg",
+      "googleScholar": "https://scholar.google.com.sg/citations?user=rByDXVkAAAAJ"
+    },
+    {
+      "firstName": "Shiwei",
+      "lastName": "ZHOU",
+      "rank": "Research Fellow",
+      "email": "chezhou@nus.edu.sg",
+      "imageName": "ZHOU_Shiwei.jpg",
+      "googleScholar": ""
+    }
+  ]

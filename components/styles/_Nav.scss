@@ -1,0 +1,207 @@
+@import '../styles/global.scss';
+  
+@media screen and (min-width: 768px) {
+    .-nav-wrapper{
+        background-color: rgba( $black-color, 0.4);
+    }
+
+    .-nav-link{
+        position: relative;
+    }
+
+    .-nav-link::before{
+        content: "";
+        background: $success-color;
+        display: block;
+        height: 16px;
+        position: absolute;
+        top: 14px;
+        left: 0px;
+        width: 1px;
+    }
+
+    .-nav-link:first-child::before{
+        display: none;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .-nav-inner-wrapper{
+        display: none;
+     }
+
+    .-nav-wrapper{
+        height: 60px;
+        background-color: $primary-color;
+
+
+    .-nav-icon{
+            display: block;
+        }
+    }
+
+    .-nav-link::before{
+        display: none;
+    }
+  }
+
+.-nav-wrapper {
+position: fixed;
+top:0;
+right: 0px;
+z-index: 10;
+width: 100%;
+
+    .-nav-brand{
+        float:left;
+        margin-left:40px;
+        padding:0;
+
+        img{
+            margin:0;
+            width: 120px;
+        }
+    } 
+
+    .-nav-inner-wrapper{
+        margin-top: 30px;
+        margin-right: 40px;
+        float:right;
+        color: $white-color;
+
+        .-nav-link{
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            color: $white-color;
+        }
+
+        .-nav-link:hover{
+            transition: 0.4s;
+            color: $success-color;
+            cursor: pointer;
+        }        
+    }
+}
+
+.-nav-icon {
+    position: absolute;
+    right:40px;
+    top:50%;
+    transform: translateY(-50%);
+    display: none;
+    color: $white-color;
+}
+
+.-nav-toggler {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: -40px;
+    background-color: rgba( $primary-color, 0.8);        
+    float: none;
+    text-align: left;
+    width: 200px;
+
+    .-nav-link{
+        display: block;
+        text-align: left !important;
+    }
+
+    .-nav-link:hover{
+        color: $primary-color !important;
+        background-color: rgba( $success-color, 0.8);
+    }
+}
+
+// .-nav-wrapper{
+//     position: fixed;
+//     left:-1%;
+//     z-index: 1000;
+
+//     .navbar{
+//         // height: 80px;
+//         // margin: auto 0;
+//     }
+    
+//     .nav-item{
+//         font-weight: bold;
+//         padding-right: 10px;
+//         padding-left: 10px;
+//         position: relative;
+
+//         .nav-link:hover{
+//             transition: 0.4s;
+//             color: $success-color !important;
+//             cursor: pointer;
+//         }
+//     }
+
+
+
+//     .nav-item:first-child:before{
+//         display: none;
+//     }
+
+    
+//     .navbar-brand{
+//         position: relative;
+//         top:0;
+    
+//         img{
+//             width: 150px;
+//         }
+
+//         .-nav-logo-name{
+//             display: inline;
+//             position: relative;
+//             top: 0px;
+//             left: 0px;
+
+//             font-size: 20px;
+//             font-weight: bold;
+        
+//             border-left: 1px solid $white-color;
+//         }
+//     }   
+
+//     @media only screen and (max-width: 768px) {
+//         .navbar{
+//             z-index:0;
+//             height: 80px;
+//             width: 115%;
+//             left:-7%;
+//             background-color: $primary-color !important;
+//         }
+
+
+//     }
+
+//     @media only screen and (max-width: 575px) {
+//         .navbar-brand{
+//             position: relative;
+//             top:0;
+        
+//             img{
+//                 width: 100px;
+//             }
+    
+//             .-nav-logo-name{
+//                 display: inline;
+//                 position: relative;
+//                 top: -5px;
+//                 left: 0px;
+    
+//                 font-size: 20px;
+//                 font-weight: bold;
+            
+//                 border-left: 1px solid $white-color;
+//                 padding-left: 2vw;
+//             }
+//         }  
+//     }
+
+// }
+
+
+

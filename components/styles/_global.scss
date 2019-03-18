@@ -1,0 +1,28 @@
+$primary-color: #004080;
+$secondary-color: #deebf7;
+$success-color: #ffc000;
+$white-color: #ffffff;
+$black-color: #000000;
+$margin-top-all-pages: 100px;
+
+@mixin addShadow{
+    box-shadow: 0 5px 10px -6px black;
+}
+
+body, html{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.-app-wrapper{
+    position:relative;
+    min-height: 100%;
+    padding-bottom: 250px;
+
+    .-app-title{
+        color: $success-color;
+        text-align: center;
+        padding-top: 90px;
+        margin-bottom: 50px;
+    }
+}

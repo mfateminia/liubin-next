@@ -1,0 +1,64 @@
+[
+    {
+        "header": "Bioprobes based on fluorogens with Aggregation-Induced Emission characteristics",
+        "content": "Unlike conventional fluorophores which usually experience quenched emission at high concentration or in aggregate states, fluorogens with aggregation-induced emission (AIE) characteristics show exactly the opposite phenomenon. Typical AIE fluorogens emit much stronger fluorescence in aggregated states than in solutions due to the restriction of their intramolecular rotations. This fascinating attribute of AIE fluorogens provides a new platform for the development of fluorescence light-up molecules and photostable nanoaggregates for specific analyte detection and imaging. Our research focuses on two approaches to utilize AIE effect in the development of fluorescent bioprobes. Firstly, these fluorogens can be engineered to gain water dispersibility while their fluorescence being turned on upon interacting with target analytes. AIE fluorescence light-up probes have been demonstrated for specific molecular detection, targeted cell imaging, controlled and selective drug delivery, on-demand therapy, enzyme activity assay and bacteria inhibition. Of particular interest is the AIE probe for biorthogonal labeling, which not only offers turn-on labeling of cancer cells or bacteria both in vitro and in vivo, but also provides in-situ image-guided photodynamic therapy. Secondly, the exceptional brightness achieved by AIE fluorogens in aggregated form has enabled the development of nanoparticle bioprobes. AIE nanoparticles with different formulations and surface functionalities show advanced features over quantum dots and small molecule dyes, such as large absorptivity, high luminosity, excellent biocompatibility, free of random blinking, and strong photobleaching resistance. These features enable cancer cell detection, long term cell tracing, and tumor imaging in a noninvasive and high contrast manner, which may also be used for image-guided surgery.",
+        "image": "research_area_aie.jpg",
+        "ref": [{
+            "title": "A Light-Up Probe with Aggregation-Induced Emission for Real-Time Bio-orthogonal Tumor Labelling and Image-Guided Photodynamic Therapy",
+            "authors": "Guangxue Feng et al",
+            "journal": "Acc. Chem. Res.",
+            "year": "2018",
+            "volume": "51",
+            "page": "1404",
+            "link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.201805446"
+        }]
+    },
+    {
+        "header": "Multifunctional conjugated polymer-based nanomaterials for disease theranostics",
+        "content": "Conjugated Polymers (CPs) are macromolecules with highly de-localized π-conjugated backbones. This unique backbone structures bestow CPs with strong light-harvesting and light-amplification properties, highly promising for optical imaging and other related biological applications. In addition to design and synthesize CPs with multi-functions, our group also develops new strategies to render CPs with stable water-dispersibility. We have reported CPs with great reactive oxygen species (ROS) generation under light irradiation for photodynamic therapy (PDT), large NIR absorption and efficient light-to-heat conversion ability for photoacoustic (PA) imaging and photothermal therapy (PTT). Meanwhile, our efforts have been placed on developing new strategies to render CPs with good water dispersibility through CP nanoparticle fabrication using nano-precipitation and millifluidic automation system. We work on multidisciplinary collaborative projects to find practical solutions for disease diagnosis and treatment, such as the development of brain tumor-specific multimodal imaging agents for image-guided surgery and tumor residue identification.",
+        "image": "research_area_cp.jpg",
+        "ref": [
+            {
+                "title": "Micelle/Silica Co-protected Conjugated Polymer Nanoparticles for Two-Photon Excited Brain Vascular Imaging",
+                "authors": "Junlong Geng et al",
+                "journal": "Chem. Mater.",
+                "year": "2014",
+                "volume": "26",
+                "page": "1874",
+                "link": "https://pubs.acs.org/doi/10.1021/cm4040374"            
+            }
+        ]
+    },
+    {
+        "header": "Multi-photon fluorophores and photosensitizers for imaging and therapy",
+        "content": "Multi-photon excitation is a high-order nonlinear optical process in which a molecule is excited by simultaneous absorption of multiple photons. Multiple-photon excitation microscopy typically uses near-infrared excitation light which minimizes scattering in biological tissues. Moreover, the background signal is strongly suppressed due to the two-photon absorption, where only the molecule in the focal point can be excited. The long-wavelength NIR excitation light and high signal-to-noise ratio lead to an increased penetration depth for in vivo deep tissue imaging. In addition, the advantages of two-photon or multiple-photon excitation can also be applied in photodynamic therapy, where a photosensitizer is excited by absorption of two or more NIR photons to generate toxic reactive oxygen species for precise cancer treatment. Our group has focused on the development of bright fluorophores with far-red/NIR emission and efficient photosensitizers for in vivo multi-photon fluorescence imaging and multi-photon excited photodynamic therapy.",
+        "image": "research_area_tp.jpg",
+        "ref": [
+            {
+                "title": "Precise Two-Photon Photodynamic Therapy using an Efficient Photosensitizer with Aggregation-Induced Emission Characteristics",
+                "authors": "Bobo Gu et al",
+                "journal": "Adv. Mater.",
+                "year": "2017",
+                "volume": "29",
+                "page": "1701076",
+                "link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/adma.201701076"            
+            }
+        ]
+    },
+    {
+        "header": "Metabolic bio-labeling for targeted delivery and anti-bacteria therapy",
+        "content": "Bacterial infection is one of the most prominent underlying causes of many severe diseases, which have increasingly raised medical and public concerns across the world. Up to now, rapid and effective in vivo bacterial detections and treatments have hardly been realized due to lack of well-developed methods. Clinical detections of most bacteria are still based on conventional tissue biopsies and cultures, which are time-consuming and highly inefficient. Our group has been exploring reliable strategies to identify and kill infection-causing bacterial strains using metabolic biomolecular labeling technology. This technique makes use of the delivery and uptake of synthetic sugars or amino acids to selectively functionalize cell and bacterial surface, which in turn provides functional groups for further conjugation of photosensitizers or drugs for image-guided therapy. For instance, we have designed an in vivo delivery system based on metal-organic frameworks to realize the responsive release of metabolic labeling molecule and image-guided antibacterial therapy in bacteria-infected tissues. ",
+        "image": "research_area_mb.jpg",
+        "ref": [
+            {
+                "title": "Dual-Responsive Metabolic Precursor and Light-Up AIEgen for Cancer Cell Bio-orthogonal Labeling and Precise Ablation",
+                "authors": "Fang Hu et al",
+                "journal": "Anal. Chem.",
+                "year": "2018",
+                "volume": "90",
+                "page": "6718",
+                "link": "https://pubs.acs.org/doi/10.1021/acs.analchem.8b00547"            
+            }
+        ]
+    }
+]

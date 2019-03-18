@@ -1,0 +1,52 @@
+@import '../styles/global.scss';
+
+.-footer-outer-wrapper{
+    font-size: 14px;    
+    padding-top: 20px;    
+    position: absolute;
+    bottom:0;
+    right:0;
+    left:0;
+}
+
+.-footer-mobile{
+    text-align: center;
+    padding-bottom: 20px;
+    color: $secondary-color;
+}
+
+.-footer-address{
+    padding-right: 50px;
+    padding-bottom: 20px;
+    .view-on-map{
+        margin-top: 10px;
+    }
+}
+
+.-footer-contact{
+    div{
+        padding-bottom: 22px;
+    }
+}
+
+.-footer-icon{
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.-footer-nav{
+    border-left: 1px solid $success-color;
+
+    .-footer-nav-link{
+        color: $success-color;
+        display: block;
+        text-decoration: none;
+        margin-bottom: 20px;
+    }
+
+    .-footer-nav-link:last-child{
+        margin-bottom: 0px;
+    }
+}
+
+

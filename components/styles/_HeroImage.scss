@@ -1,0 +1,143 @@
+.-hero-image-outer-wrapper{
+    overflow:visible;
+    color: $white-color;
+
+    .-hero-image-inner-wrapper{
+        position: relative;
+        overflow:visible;
+    }
+
+    .-hero-image-image-wrapper{
+        position: relative;
+        top: 0px;
+        left: -7%;
+        width: 115%;
+        z-index: 1;
+
+        .-hero-image-image{
+            width: 100%;
+            height:100%;
+        }
+
+        .-hero-image-overlay{
+            position: absolute;
+            top:0;
+            left:0;
+            bottom:0;
+            right:0;
+            background-color: rgba($color: #000000, $alpha: 0.8);
+        }
+    }
+
+    .-hero-image-text-wrapper{
+        z-index: 2;
+        position: absolute;
+        display: inline;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;    
+        
+        #-hero-image-parag{
+            margin: 0 auto;
+        }
+    }
+}
+
+.-hero-image-button{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    z-index: 1;
+    transform: translateX(-50%);
+
+    .-hero-image-icon{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+    }
+}
+
+.hero-image-button{
+    color: $white-color;
+}
+
+.-hero-image-button:visited{
+    border-color: $white-color;
+    color: $white-color;
+}
+
+.-hero-image-button:hover{
+    transition: 200ms;
+    border-color: $success-color;
+    color: $success-color;
+}
+
+
+
+
+
+@media only screen and (max-width: 485px) {
+    .-hero-image-outer-wrapper{
+        position: static;
+        padding-top:60px;
+    }
+
+    #-hero-image-heading{
+        font-size: 20px;
+        padding-bottom: 1.5%;
+    }
+
+    #-hero-image-parag{
+        font-size: 14px;
+        max-width: 500px;
+        }   
+
+    .-hero-image-button{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 485px) and (max-width: 768px) {
+    .-hero-image-outer-wrapper{
+        position: static;
+        padding-top:60px;
+    }
+
+    #-hero-image-heading{
+        font-size: 40px;
+        padding-bottom: 1.5%;
+    }
+
+    #-hero-image-parag{
+        font-size: 16px;
+        max-width: 500px;
+        }   
+
+    .-hero-image-button{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .-hero-image-outer-wrapper{
+        position: relative;
+    }
+    
+    #-hero-image-heading{
+        font-size: 50px;
+        padding-bottom: 1.5%;
+    }
+
+    #-hero-image-parag{
+        font-size: 18px;
+        max-width: 500px;
+    }   
+}

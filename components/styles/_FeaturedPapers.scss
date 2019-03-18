@@ -1,0 +1,42 @@
+.-card-wrapper{
+    margin-top: 12px;
+    min-height: 250px;
+
+    a{
+        text-decoration: none;
+    }
+
+    a:hover{
+        text-decoration: none;
+        color: $primary-color;
+        .-card-inner-wrapper{
+            background-color: darken($secondary-color, 4);
+        }
+    }
+}
+
+.-card-inner-wrapper{
+    padding: 40px;
+    margin-bottom: 10px;
+    background-color: $secondary-color;
+    @include addShadow;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+  
+.-subtitle{
+margin-top: 8px;
+font-size: 14px;
+}
+
+.-card-text{
+    margin-top: 6px;
+    font-size: 14px;
+}
+
+.-button{
+    margin-top: 12px;
+}

@@ -1,0 +1,62 @@
+@import '../styles/global.scss';
+
+.-contact-wrapper{
+    position: fixed;
+    padding: 30px;
+    top: 0;
+    right: 0;
+    width: 300px;
+    // height: 500px;
+    background-color: rgba($primary-color, 0.95);
+    z-index: 1;
+    color: $white-color;
+    font-size: 14px;
+}
+
+.-contact-item{
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+.-contact-icon{
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.-contact-address{
+    border-top: 1px solid $success-color;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+.-contact-header{
+    color: $success-color;
+    font-style: italic;
+}
+
+.-contact-close {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+  }
+  .-contact-close:hover {
+    opacity: 1;
+  }
+  .-contact-close:before, .-contact-close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: $white-color;
+  }
+  .-contact-close:before {
+    transform: rotate(45deg);
+  }
+  .-contact-close:after {
+    transform: rotate(-45deg);
+  }
+  
