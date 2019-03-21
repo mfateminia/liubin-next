@@ -34,10 +34,10 @@ const Footer = () => {
                             </div>						
                         </div>
                         <div className = '-footer-nav col-2 d-none d-md-block'>
-                            {/* <Link to = {'/'} className = '-footer-nav-link'>Home</Link>
-                            <Link to = '/publications' className = '-footer-nav-link'>Publications</Link>
-                            <Link to = '/people' className = '-footer-nav-link'>People</Link> */}
-                            <a href="" className = '-footer-nav-link'>Tools</a>
+                            <a href="#" className = '-footer-nav-link'>Home</a>
+                            <a href="#" className = '-footer-nav-link'>Publications</a>
+                            <a href="#" className = '-footer-nav-link'>People</a>
+                            <a href="#" className = '-footer-nav-link'>Tools</a>
                         </div>					
                     </div>
                 </div>
