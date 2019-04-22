@@ -1,0 +1,48 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-react",
+    "tslint-config-prettier"
+  ],
+  "linterOptions": {
+    "exclude": [
+        "dist",
+        "**/*.json",
+        "**/*.js"
+    ]
+  },
+  "rulesDirectory": [
+    "tslint-plugin-prettier"
+  ],
+  "rules": {
+    "prettier": [
+      true,
+      {
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "bracketSpacing": true
+      }
+    ],
+    "no-console": true,
+    "no-submodule-imports": false,
+    "no-string-literal": false,
+    "object-literal-sort-keys": false,
+    "max-file-line-count": [
+      true,
+      500
+    ],
+    "no-unused-variable": true,
+    "no-unused-expression": true,
+    "cyclomatic-complexity": [
+      true,
+      30
+    ],
+    "semicolon": [
+      true,
+      "always",
+      "ignore-bound-class-methods"
+    ],
+    "no-implicit-dependencies": false,
+    "max-classes-per-file": false
+  }
+}

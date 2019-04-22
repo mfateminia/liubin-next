@@ -1,9 +1,17 @@
 import React from 'react';
 import App, { Container } from 'next/app';
 import Layout from '../components/Layout';
+import { NextContext } from 'next';
+import '../components/styles/index.scss';
 
 class MyApp extends App {
-  static async getInitialProps({ Component, ctx }) {
+  static async getInitialProps({
+    Component,
+    ctx,
+  }: {
+    Component: any;
+    ctx: NextContext;
+  }) {
     let pageProps = {}
 
     if (Component.getInitialProps) {
@@ -13,7 +21,7 @@ class MyApp extends App {
     return { pageProps }
   }
 
-  render () {
+  render() {
     const { Component, pageProps } = this.props
 
     return (
@@ -22,8 +30,8 @@ class MyApp extends App {
           <Component {...pageProps} />
         </Layout>
       </Container>
-    )
+    );
   }
 }
 
-export default MyApp
+export default MyApp;

@@ -1,6 +1,6 @@
 import { observable, action, decorate } from 'mobx';
 
-import PublicationsAPI from '../components/API/Publications.json';
+// import PublicationsAPI from '../components/API/Publications.json';
 
 
 class Store {
@@ -11,9 +11,9 @@ class Store {
     toggleNav = (e) => {e.preventDefault(); this.navTogglerVisible = !this.navTogglerVisible};
     closeToggler = () => this.navTogglerVisible = false;
     showContact = (newStatus) => this.isContactVisible = newStatus;
-    //filtered publications
-    filteredPublications = [...PublicationsAPI];
-    applyFilters = (filteredResults) => this.filteredPublications = filteredResults;
+    // //filtered publications
+    // filteredPublications = [...PublicationsAPI];
+    // applyFilters = (filteredResults) => this.filteredPublications = filteredResults;
 }    
 
 decorate(Store, {
@@ -23,9 +23,9 @@ decorate(Store, {
     closeToggler: action,
     toggleNav: action,
     showContact: action,
-    //filtered publications
-    filteredPublications: observable,
-    applyFilters: action,
+    // //filtered publications
+    // filteredPublications: observable,
+    // applyFilters: action,
 });
 
 export default new Store();
