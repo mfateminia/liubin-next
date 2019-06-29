@@ -1,8 +1,9 @@
 import React, { useState, ChangeEvent, MouseEvent } from 'react';
 import PublicationsAPI from './API/Publications.json';
 import { ScrollToTop, sortArrayOfObjects } from './utils';
+import { IPublication, IAuthor } from '../models.js';
 
-const Publications = () => {
+export const Publications = () => {
     ScrollToTop();
 
     const [filteredPublicationsState, SetfilteredPublicationsState] = useState(PublicationsAPI);
@@ -73,7 +74,7 @@ const Publications = () => {
     }
 
     const getPublications = () => {
-        return sortArrayOfObjects(filteredPublicationsState, 'year', 'decending').map(item => {
+        return sortArrayOfObjects(filteredPublicationsState, 'year', 'decending').map((item: IPublication) => {
             let { id, year, _, containerTitle, authors, volume, page, doi, __, title } = item;
             let link = 'https://dx.doi.org/' + doi;
 
@@ -96,8 +97,8 @@ const Publications = () => {
         });
     }
 
-    const getAuthors = (authors: any[]) => {
-        return (authors.map((author: any, index: number) => {
+    const getAuthors = (authors: IAuthor[]) => {
+        return (authors.map((author: IAuthor, index: number) => {
             if (author.firstName || author.lastName) {
                 let delimiter = (index < (authors.length - 1) ? ', ' : '');
                 return author.firstName + ' ' + author.lastName + delimiter;
@@ -113,6 +114,4 @@ const Publications = () => {
             {getPublications()}
         </div>
     );
-}
-
-export default Publications;
+};

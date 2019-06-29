@@ -1,10 +1,11 @@
 import React from 'react';
 import FeaturedPapersAPI from './API/featured-papers.json';
+import { IFeaturedPublication } from '../models.js';
 
-const HorizCard: React.FunctionComponent = () => {
+export const FeaturedPapers: React.FunctionComponent = () => {
     return (
         <div className="-card-wrapper container clearfix">
-            {FeaturedPapersAPI.map((paper: any) => {
+            {FeaturedPapersAPI.map((paper: IFeaturedPublication) => {
                 return (
                     <a key={paper.title} href={paper.url} target="_blank">
                         <div className="-card-inner-wrapper">
@@ -28,6 +29,4 @@ const HorizCard: React.FunctionComponent = () => {
             })}
         </div>
     );
-}
-
-export default HorizCard;
+};

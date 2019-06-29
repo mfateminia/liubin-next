@@ -1,7 +1,7 @@
 import React from 'react';
 import { ScrollToTop } from './utils';
 
-const HeroImage: React.FunctionComponent = () => {
+export const HeroImage: React.FunctionComponent = () => {
     ScrollToTop();
     return (
         <div id="-hero-image-top" className="-hero-image-outer-wrapper">
@@ -21,6 +21,4 @@ const HeroImage: React.FunctionComponent = () => {
             </div>
         </div>
     );
-}
-
-export default HeroImage;
+};

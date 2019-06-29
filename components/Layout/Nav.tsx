@@ -1,7 +1,7 @@
 import React, { useState, MouseEvent } from 'react';
 import Router from 'next/router';
 
-const Nav: React.FunctionComponent = () => {
+export const Nav: React.FunctionComponent = () => {
 
     const [isHamburgerMenuOpen, setIsHamburgetMenuOpen] = useState(false);
     const [isContactOpen, setIsContactOpen] = useState(false);
@@ -76,6 +76,4 @@ const Nav: React.FunctionComponent = () => {
         </div>
     );
 
-}
-
-export default Nav;
+};
