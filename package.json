@@ -22,6 +22,7 @@
     "@zeit/next-sass": "^1.0.1",
     "mobx": "^5.9.0",
     "mobx-react": "^5.4.3",
+    "mobx-react-lite": "^1.4.1",
     "next": "^8.0.3",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
