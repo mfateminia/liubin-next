@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 import { NextContext } from 'next';
 import '../components/styles/index.scss';
 
-class MyApp extends App {
+export default class MyApp extends App {
   static async getInitialProps({
     Component,
     ctx,
@@ -33,5 +33,3 @@ class MyApp extends App {
     );
   }
 }
-
-export default MyApp;

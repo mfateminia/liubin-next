@@ -1,14 +1,20 @@
-import { Fragment } from 'react';
 import { HeroImage } from '../components/hero-image';
 import { Research } from '../components/research';
 import { FeaturedPapers } from '../components/featured-papers';
+import styled from 'styled-components';
+
+const StyledContentWrapDiv = styled.div`
+    padding: 0 20px;
+`;
 
 export default function Home() {
     return (
-        <Fragment>
+        <>
             <HeroImage />
-            <Research />
-            <FeaturedPapers />
-        </Fragment>
+            <StyledContentWrapDiv>
+                <Research />
+                <FeaturedPapers />
+            </StyledContentWrapDiv>
+        </>
     );
 }
